@@ -1,0 +1,22 @@
+{
+    "name": "Vendor/module-CustomOrderProcessing",
+    "description": "set order status module",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vamsi",
+            "email": "vamseadobe@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vendor\\CustomOrderProcessing\\": ""
+        }
+    }
+}
